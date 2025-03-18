@@ -1,0 +1,77 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+# 🔹 Node Modules
+node_modules/
+
+# 🔹 Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+debug.log
+
+# 🔹 Build/Dist
+dist/
+build/
+
+# 🔹 Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# 🔹 IDE/Editor Settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# 🔹 OS Files
+.DS_Store
+Thumbs.db
+
+# 🔹 Dependency Lock Files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 🔹 Testing
+coverage/
+jest/
+cypress/videos/
+cypress/screenshots/
+cypress/results/
+playwright-report/
+
+# 🔹 TypeScript (if applicable)
+*.tsbuildinfo
+
+# 🔹 React-Specific
+.cache/
+
+# 🔹 MongoDB Data (if running locally)
+dump/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.ideag
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
