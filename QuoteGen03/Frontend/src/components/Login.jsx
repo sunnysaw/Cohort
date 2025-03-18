@@ -3,7 +3,7 @@ import * as Yup from "yup";
 import { useFormik } from "formik";
 import { useNavigate } from "react-router-dom";
 import AuthApi from "../services/AuthApi.js";
-function SignUp() {
+function Login() {
   const navigate = useNavigate();
   const [error, setError] = useState(null);
 
@@ -81,4 +81,4 @@ function SignUp() {
     </form>
   );
 }
-export default SignUp;
+export default Login;
